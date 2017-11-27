@@ -1,7 +1,7 @@
 from setuptools import setup
 import db.initialize
-import scrape.scraper
-
+import scrape.scrape
+r
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
@@ -15,6 +15,7 @@ setup(
     long_description=open('README.md').read(),
     install_requires=required
 )
+
 
 # initialize the database and run the initial scrapes that
 # are necessary for this tool (player_ids and game_dates)
